@@ -1,0 +1,42 @@
+claude-haiku-5-5 solve: 1104 calls to make
+  50/1104 ok=50 err=0 94s
+claude-haiku-5-5 solve: 1020 calls to make
+  50/1020 ok=50 err=0 145s
+  100/1020 ok=100 err=0 180s
+  150/1020 ok=150 err=0 209s
+  200/1020 ok=200 err=0 258s
+  250/1020 ok=250 err=0 368s
+  300/1020 ok=300 err=0 465s
+  350/1020 ok=350 err=0 555s
+  400/1020 ok=400 err=0 639s
+  450/1020 ok=450 err=0 715s
+  500/1020 ok=500 err=0 746s
+  550/1020 ok=550 err=0 817s
+  600/1020 ok=600 err=0 870s
+  650/1020 ok=650 err=0 979s
+  700/1020 ok=700 err=0 1072s
+  750/1020 ok=750 err=0 1117s
+  800/1020 ok=800 err=0 1204s
+  850/1020 ok=850 err=0 1239s
+  900/1020 ok=900 err=0 1278s
+  950/1020 ok=950 err=0 1304s
+  1000/1020 ok=1000 err=0 1367s
+  1020/1020 ok=1020 err=0 1520s
+claude-haiku-5-5 solve: 0 calls to make
+claude-haiku-5-5 check: 736 calls to make
+  50/736 ok=50 err=0 43s
+  100/736 ok=100 err=0 103s
+  150/736 ok=150 err=0 125s
+  200/736 ok=200 err=0 157s
+  250/736 ok=250 err=0 203s
+  300/736 ok=300 err=0 230s
+  350/736 ok=350 err=0 274s
+  400/736 ok=400 err=0 296s
+  450/736 ok=450 err=0 347s
+  500/736 ok=500 err=0 432s
+  550/736 ok=550 err=0 470s
+  600/736 ok=600 err=0 518s
+  650/736 ok=650 err=0 547s
+  700/736 ok=700 err=0 566s
+  736/736 ok=736 err=0 650s
+claude-haiku-5-5 check: 0 calls to make

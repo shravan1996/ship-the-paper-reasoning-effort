@@ -1,0 +1,45 @@
+claude-sonnet-5-5 solve: 1104 calls to make
+  50/1104 ok=50 err=0 61s
+claude-sonnet-5-5 solve: 1012 calls to make
+  50/1012 ok=50 err=0 78s
+  100/1012 ok=100 err=0 98s
+  150/1012 ok=150 err=0 119s
+  200/1012 ok=200 err=0 155s
+  250/1012 ok=250 err=0 221s
+  300/1012 ok=300 err=0 364s
+  350/1012 ok=350 err=0 463s
+  400/1012 ok=400 err=0 538s
+  450/1012 ok=450 err=0 598s
+  500/1012 ok=500 err=0 624s
+  550/1012 ok=550 err=0 688s
+  600/1012 ok=600 err=0 736s
+  650/1012 ok=650 err=0 811s
+  700/1012 ok=700 err=0 881s
+  750/1012 ok=750 err=0 920s
+  800/1012 ok=800 err=0 992s
+  850/1012 ok=850 err=0 1028s
+  900/1012 ok=900 err=0 1071s
+  950/1012 ok=950 err=0 1095s
+  1000/1012 ok=1000 err=0 1154s
+  1012/1012 ok=1012 err=0 1183s
+claude-sonnet-5-5 solve: 0 calls to make
+claude-sonnet-5-5 check: 736 calls to make
+  50/736 ok=50 err=0 38s
+  100/736 ok=100 err=0 83s
+  150/736 ok=150 err=0 106s
+  200/736 ok=200 err=0 134s
+  250/736 ok=250 err=0 183s
+  300/736 ok=300 err=0 220s
+  350/736 ok=350 err=0 262s
+  400/736 ok=400 err=0 285s
+  450/736 ok=450 err=0 328s
+  500/736 ok=500 err=0 387s
+  550/736 ok=550 err=0 420s
+  600/736 ok=600 err=0 456s
+  650/736 ok=650 err=0 481s
+  700/736 ok=700 err=0 506s
+  736/736 ok=736 err=0 541s
+claude-sonnet-5-5 check: 0 calls to make
+claude-haiku-5-5 solve: 1104 calls to make
+./scripts/run_all.sh: line 4: 35159 Terminated: 15          python3 collect.py --model "$m" --stage solve --workers "${WORKERS:-22}"
+claude-haiku-5-5 solve: 1102 calls to make

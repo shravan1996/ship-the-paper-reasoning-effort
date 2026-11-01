@@ -1,0 +1,118 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="680" height="670" viewBox="0 0 680 670" role="img" aria-labelledby="title desc">
+  <title id="title">What each ladder bought</title>
+  <desc id="desc">Five policies compared on BBEH questions. Claude Sonnet 5.5, 368 questions: always low, 68.2 percent correct, 0.44 times the cost of always xhigh at the CLI's price and 0.35 times without the CLI's overhead, 0 percent sent to xhigh; always xhigh, 75.8 percent correct, 1.00 times the cost of always xhigh at the CLI's price and 1.00 times without the CLI's overhead, 100 percent sent to xhigh; ladder, gold answer, 77.4 percent correct, 0.88 times the cost of always xhigh at the CLI's price and 0.78 times without the CLI's overhead, 32 percent sent to xhigh; ladder, two lows agree, 73.1 percent correct, 1.11 times the cost of always xhigh at the CLI's price and 0.98 times without the CLI's overhead, 17 percent sent to xhigh; ladder, self-check, 73.4 percent correct, 1.12 times the cost of always xhigh at the CLI's price and 0.91 times without the CLI's overhead, 13 percent sent to xhigh. Claude Haiku 5.5, 368 questions: always low, 63.9 percent correct, 0.35 times the cost of always xhigh at the CLI's price and 0.32 times without the CLI's overhead, 0 percent sent to xhigh; always xhigh, 69.8 percent correct, 1.00 times the cost of always xhigh at the CLI's price and 1.00 times without the CLI's overhead, 100 percent sent to xhigh; ladder, gold answer, 75.3 percent correct, 0.73 times the cost of always xhigh at the CLI's price and 0.70 times without the CLI's overhead, 36 percent sent to xhigh; ladder, two lows agree, 69.8 percent correct, 1.07 times the cost of always xhigh at the CLI's price and 1.03 times without the CLI's overhead, 28 percent sent to xhigh; ladder, self-check, 70.1 percent correct, 1.00 times the cost of always xhigh at the CLI's price and 0.93 times without the CLI's overhead, 23 percent sent to xhigh.</desc>
+  <style>
+    text { stroke: none; }
+    .serif { font-family: "Iowan Old Style", "Palatino Linotype", Palatino, Georgia, serif; }
+    .sans  { font-family: ui-sans-serif, system-ui, -apple-system, "Segoe UI", Helvetica, Arial, sans-serif; }
+    .h1 { font-size: 26px; font-weight: 600; fill: #191F1D; }
+    .sub { font-size: 14.5px; fill: #3F4945; }
+    .label { font-size: 11px; font-weight: 700; letter-spacing: 1.1px; fill: #5C6964; }
+    .colhead { font-size: 11px; font-weight: 700; letter-spacing: 1.1px; fill: #5C6964; }
+    .row { font-size: 14.5px; fill: #191F1D; }
+    .val { font-size: 13px; font-weight: 700; fill: #1F6B4C; }
+    .valk { font-size: 13px; font-weight: 700; fill: #191F1D; }
+    .valw { font-size: 13px; font-weight: 700; fill: #8F6019; }
+    .num { font-size: 14px; fill: #3F4945; }
+    .numw { font-size: 14px; font-weight: 700; fill: #8F6019; }
+    .tick { font-size: 12px; fill: #5C6964; }
+    .foot { font-size: 13.5px; fill: #3F4945; }
+  </style>
+  <text class="serif h1" x="32" y="44">What each ladder bought</text>
+  <text class="sans sub" x="32" y="72">Accuracy on BBEH questions, and mean cost per question as a</text>
+  <text class="sans sub" x="32" y="92">multiple of always running xhigh. Dashed line: always xhigh.</text>
+  <line x1="32" y1="110" x2="648" y2="110" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans colhead" x="340" y="140" text-anchor="middle">ACCURACY</text>
+  <text class="sans colhead" x="522" y="132" text-anchor="end">COST,</text>
+  <text class="sans colhead" x="522" y="146" text-anchor="end">CLI</text>
+  <text class="sans colhead" x="586" y="132" text-anchor="end">COST,</text>
+  <text class="sans colhead" x="586" y="146" text-anchor="end">API</text>
+  <text class="sans colhead" x="648" y="132" text-anchor="end">TO</text>
+  <text class="sans colhead" x="648" y="146" text-anchor="end">XHIGH</text>
+  <text class="sans label" x="32" y="176">CLAUDE SONNET 5.5, 368 QUESTIONS</text>
+  <line x1="398.2" y1="192" x2="398.2" y2="340" stroke="#5C6964" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="240" y1="205" x2="440" y2="205" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="210">Always low</text>
+  <circle cx="322.1" cy="205" r="6" fill="#191F1D"/>
+  <text class="sans valk" x="312.1" y="200" text-anchor="end">68.2%</text>
+  <text class="sans num" x="522" y="210" text-anchor="end">0.44x</text>
+  <text class="sans num" x="586" y="210" text-anchor="end">0.35x</text>
+  <text class="sans num" x="648" y="210" text-anchor="end">0%</text>
+  <line x1="240" y1="235" x2="440" y2="235" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="240">Always xhigh</text>
+  <circle cx="398.2" cy="235" r="6" fill="#191F1D"/>
+  <text class="sans valk" x="408.2" y="230" text-anchor="start">75.8%</text>
+  <text class="sans num" x="522" y="240" text-anchor="end">1.00x</text>
+  <text class="sans num" x="586" y="240" text-anchor="end">1.00x</text>
+  <text class="sans num" x="648" y="240" text-anchor="end">100%</text>
+  <line x1="240" y1="265" x2="440" y2="265" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="270">Ladder, gold answer</text>
+  <circle cx="414.5" cy="265" r="6" fill="#1F6B4C"/>
+  <text class="sans val" x="424.5" y="260" text-anchor="start">77.4%</text>
+  <text class="sans num" x="522" y="270" text-anchor="end">0.88x</text>
+  <text class="sans num" x="586" y="270" text-anchor="end">0.78x</text>
+  <text class="sans num" x="648" y="270" text-anchor="end">32%</text>
+  <line x1="240" y1="295" x2="440" y2="295" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="300">Ladder, two lows agree</text>
+  <circle cx="371.0" cy="295" r="6" fill="#8F6019"/>
+  <text class="sans valw" x="361.0" y="290" text-anchor="end">73.1%</text>
+  <text class="sans numw" x="522" y="300" text-anchor="end">1.11x</text>
+  <text class="sans num" x="586" y="300" text-anchor="end">0.98x</text>
+  <text class="sans num" x="648" y="300" text-anchor="end">17%</text>
+  <line x1="240" y1="325" x2="440" y2="325" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="330">Ladder, self-check</text>
+  <circle cx="373.7" cy="325" r="6" fill="#8F6019"/>
+  <text class="sans valw" x="363.7" y="320" text-anchor="end">73.4%</text>
+  <text class="sans numw" x="522" y="330" text-anchor="end">1.12x</text>
+  <text class="sans num" x="586" y="330" text-anchor="end">0.91x</text>
+  <text class="sans num" x="648" y="330" text-anchor="end">13%</text>
+  <text class="sans tick" x="240.0" y="354" text-anchor="middle">60%</text>
+  <text class="sans tick" x="290.0" y="354" text-anchor="middle">65%</text>
+  <text class="sans tick" x="340.0" y="354" text-anchor="middle">70%</text>
+  <text class="sans tick" x="390.0" y="354" text-anchor="middle">75%</text>
+  <text class="sans tick" x="440.0" y="354" text-anchor="middle">80%</text>
+  <text class="sans label" x="32" y="400">CLAUDE HAIKU 5.5, 368 QUESTIONS</text>
+  <line x1="338.4" y1="416" x2="338.4" y2="564" stroke="#5C6964" stroke-width="1" stroke-dasharray="3 3"/>
+  <line x1="240" y1="429" x2="440" y2="429" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="434">Always low</text>
+  <circle cx="278.6" cy="429" r="6" fill="#191F1D"/>
+  <text class="sans valk" x="268.6" y="424" text-anchor="end">63.9%</text>
+  <text class="sans num" x="522" y="434" text-anchor="end">0.35x</text>
+  <text class="sans num" x="586" y="434" text-anchor="end">0.32x</text>
+  <text class="sans num" x="648" y="434" text-anchor="end">0%</text>
+  <line x1="240" y1="459" x2="440" y2="459" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="464">Always xhigh</text>
+  <circle cx="338.4" cy="459" r="6" fill="#191F1D"/>
+  <text class="sans valk" x="348.4" y="454" text-anchor="start">69.8%</text>
+  <text class="sans num" x="522" y="464" text-anchor="end">1.00x</text>
+  <text class="sans num" x="586" y="464" text-anchor="end">1.00x</text>
+  <text class="sans num" x="648" y="464" text-anchor="end">100%</text>
+  <line x1="240" y1="489" x2="440" y2="489" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="494">Ladder, gold answer</text>
+  <circle cx="392.7" cy="489" r="6" fill="#1F6B4C"/>
+  <text class="sans val" x="402.7" y="484" text-anchor="start">75.3%</text>
+  <text class="sans num" x="522" y="494" text-anchor="end">0.73x</text>
+  <text class="sans num" x="586" y="494" text-anchor="end">0.70x</text>
+  <text class="sans num" x="648" y="494" text-anchor="end">36%</text>
+  <line x1="240" y1="519" x2="440" y2="519" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="524">Ladder, two lows agree</text>
+  <circle cx="338.4" cy="519" r="6" fill="#8F6019"/>
+  <text class="sans valw" x="348.4" y="514" text-anchor="start">69.8%</text>
+  <text class="sans numw" x="522" y="524" text-anchor="end">1.07x</text>
+  <text class="sans numw" x="586" y="524" text-anchor="end">1.03x</text>
+  <text class="sans num" x="648" y="524" text-anchor="end">28%</text>
+  <line x1="240" y1="549" x2="440" y2="549" stroke="#D3DBD7" stroke-width="1"/>
+  <text class="sans row" x="32" y="554">Ladder, self-check</text>
+  <circle cx="341.1" cy="549" r="6" fill="#8F6019"/>
+  <text class="sans valw" x="351.1" y="544" text-anchor="start">70.1%</text>
+  <text class="sans num" x="522" y="554" text-anchor="end">1.00x</text>
+  <text class="sans num" x="586" y="554" text-anchor="end">0.93x</text>
+  <text class="sans num" x="648" y="554" text-anchor="end">23%</text>
+  <text class="sans tick" x="240.0" y="578" text-anchor="middle">60%</text>
+  <text class="sans tick" x="290.0" y="578" text-anchor="middle">65%</text>
+  <text class="sans tick" x="340.0" y="578" text-anchor="middle">70%</text>
+  <text class="sans tick" x="390.0" y="578" text-anchor="middle">75%</text>
+  <text class="sans tick" x="440.0" y="578" text-anchor="middle">80%</text>
+  <text class="sans foot" x="32" y="636">CLI: the Claude Code CLI's list-price figure, the pre-registered measure.</text>
+  <text class="sans foot" x="32" y="656">API: the same calls priced without the CLI's own tokens. Amber: real checks.</text>
+</svg>

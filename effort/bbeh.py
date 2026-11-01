@@ -20,8 +20,10 @@ SUFFIX = ("\n\nThink it through, then end your reply with one line that starts w
 
 def load_items(per_task=None):
     """Mini examples as dicts: id, task, input, target. Ordered by task, then mini order."""
-    mini = json.load(open(DATA / "bbeh_mini.json"))["examples"]
-    tasks = json.load(open(DATA / "bbeh_mini_tasks.json"))
+    with open(DATA / "bbeh_mini.json") as f:
+        mini = json.load(f)["examples"]
+    with open(DATA / "bbeh_mini_tasks.json") as f:
+        tasks = json.load(f)
     items, seen = [], {}
     for e, task in zip(mini, tasks):
         k = seen.get(task, 0)
